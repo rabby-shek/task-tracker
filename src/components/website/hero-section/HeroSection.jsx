@@ -10,10 +10,7 @@ const HeroSection = () => {
           <div className="hero-data">
             <h1>Welcome to <span className="hero-task">Task</span> Tracker</h1>
             <p className="lead">
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum,
-              nam eos. Non blanditiis, quasi in sint illo delectus iure nesciunt
-              totam eveniet pariatur nisi repellat sunt! Voluptate amet tenetur
-              nesciunt?
+            Take control of your day with our intuitive task tracker. Stay organized, prioritize tasks, and meet your deadlines effortlessly. Whether you're managing a project or just your daily to-dos, our app ensures you never miss a beat.
             </p>
             <a className="btn hero-btn" href="#" role="button">
               Learn More

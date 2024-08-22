@@ -156,13 +156,29 @@ section {
 }
 .feature-bg-text{
   position: absolute;
-  top: 500px;
+  top: 400px;
   right: 100px;
-  font-size: 100px;
+  font-size: 70px;
   transform: rotate(45deg);
   font-family: "Permanent Marker", cursive;
   opacity: 0.4;
   z-index: -1;
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 0 100px 0 100px;
+}
+.feature-bg-text-2{
+  position: absolute;
+  bottom: 100px;
+  left: 100px;
+  font-size: 70px;
+  transform: rotate(45deg);
+  font-family: "Permanent Marker", cursive;
+  opacity: 0.4;
+  z-index: -1;
+  background-color: var(--primary);
+  padding: 20px;
+  border-radius: 0 100px 0 100px;
 }
 .feature-card {
   border: 1px solid #59ed77;
@@ -176,6 +192,7 @@ section {
 .feature-icon:hover {
   background-color: var(--accent);
 }
+
 
 /* RESPONSIVE DESIGN */
 @media (max-width: 1024px) {
@@ -215,5 +232,28 @@ section {
     width: 95%;
     margin: 10px auto;
     background-color: hsla(0, 0%, 100%, 0.795);
+  }
+  .feature-bg-text{
+    position: absolute;
+    top: 500px;
+    left: 100px;
+    font-size: 70px;
+    transform: rotate(45deg);
+    font-family: "Permanent Marker", cursive;
+    opacity: 0.4;
+    z-index: -1;
+  }
+  .feature-bg-text-2{
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+    font-size: 70px;
+    transform: rotate(45deg);
+    font-family: "Permanent Marker", cursive;
+    opacity: 0.4;
+    z-index: -1;
+    background-color: var(--primary);
+    padding: 20px;
+    border-radius: 0 100px 0 100px;
   }
 }
