@@ -38,7 +38,7 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.6 } // Adjust threshold as needed
+      { threshold: 0.3 } // Adjust threshold as needed
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -50,7 +50,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <nav className={`navbar navbar-expand-lg ${navbarClass}`}>
+    <nav className={`navbar navbar-expand-lg ${navbarClass}`} data-aos="fade-down">
       <div className="container">
         <a className="navbar-brand" href="#">
           Task Tracker

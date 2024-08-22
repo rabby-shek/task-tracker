@@ -6,7 +6,7 @@ const Footer = () => {
   return (
 <footer className="text-center text-lg-start bg-body-tertiary text-muted">
   {/* Section: Links  */}
-  <section id="footer">
+  <section id="footer" className='bg-primary-color' data-aos="fade-up">
     <div className="container text-center text-md-start mt-5">
       {/* Grid row */}
       <div className="row mt-3">

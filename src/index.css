@@ -30,6 +30,9 @@ section {
 .text-primary-color {
   color: var(--primary);
 }
+.bg-primary-color{
+  background-color: var(--primary);
+}
 .btn-bg-primary-color {
   background-color: var(--primary);
 }
