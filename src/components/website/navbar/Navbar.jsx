@@ -38,7 +38,7 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.3 } // Adjust threshold as needed
+      { threshold: 0.1 } // Adjust threshold as needed
     );
 
     sections.forEach((section) => observer.observe(section));
@@ -86,6 +86,11 @@ const Navbar = () => {
             <li className="nav-item">
               <a className="nav-link" href="#pricing">
                 Pricing
+              </a>
+            </li>
+            <li className="nav-item">
+              <a className="nav-link" href="#reviews">
+                Reviews
               </a>
             </li>
           </ul>

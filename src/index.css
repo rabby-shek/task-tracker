@@ -139,10 +139,11 @@ section {
 
 /* WHY CHOOSE US STYLES */
 .choose-us-card {
-  background: url("./assets/images/layered-waves-haikei.png");
+  /* background: url("./assets/images/layered-waves-haikei.png");
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: cover; */
+  background-color: var(--primary);
   font-size: 18px;
   color: var(--text);
   padding: 10px;

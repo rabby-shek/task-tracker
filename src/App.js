@@ -7,6 +7,7 @@ import Features from './components/website/features/Features'
 import PlanAndPricing from './components/website/plan-and-pricing/PlanAndPricing'
 import Aos from "aos";
 import "aos/dist/aos.css";
+import Review from './components/website/review/Review'
 const App = () => {
   useEffect(() => {
     Aos.init();
@@ -18,6 +19,7 @@ const App = () => {
       <WhyChooseUs />
       <Features />
       <PlanAndPricing />
+      <Review />
       <Footer />
     </>
   )
