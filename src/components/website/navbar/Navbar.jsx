@@ -38,7 +38,7 @@ const Navbar = () => {
           }
         });
       },
-      { threshold: 0.1 } // Adjust threshold as needed
+      { threshold: 0.2 } // Adjust threshold as needed
     );
 
     sections.forEach((section) => observer.observe(section));
